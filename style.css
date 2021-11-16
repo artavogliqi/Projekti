@@ -159,3 +159,45 @@ body {
     color: green;
     cursor: pointer;
 }
+/* ========================================== CONTENT ========================================== */
+.mwk {
+    width: 100%;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.mwk .m, .mwk .w, .mwk .k {
+    width: 33%;
+    height: 570px;
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(100%);
+    transition: 0.1s;
+    /* border: 1px solid black; */
+    /* float: left; */
+    /* margin: 0px 1px; */
+}
+.mwk .m:hover, .mwk .w:hover, .mwk .k:hover {
+    filter: none;
+    cursor: pointer;
+    transform: scale(1.05);
+    /* width: 36%;
+    z-index: 1; */
+}
+.mwk .m .men, .mwk .w .women, .mwk .k .kids {
+    /* text-align: center; */
+    padding-top: 100px;
+    padding-left: 20px;
+    font-size: 35px;
+    font-style: italic;
+    color: #6b2b00;
+}
+.mwk .m {
+    background-image: url("Men.jfif");
+}
+.mwk .w {
+    background-image: url("Women.jfif");
+}
+.mwk .k {
+    background-image: url("Kids.jfif");
+}
